@@ -1,3 +1,25 @@
 # Basic c++ Coding tool - lucas
 
-** > used for learning basic c++ **
+#include <iostream>
+#include <Windows.h>
+#include <string>
+
+int main() {
+    std::cout << " Hello, ShowPOF " << std::endl;
+    Sleep(1500);
+    system("cls");
+    std::cout << " Program executed successful " << std::endl;
+
+    bool success = true; // or false depending on some condition
+
+    if (success) {
+        std::cout << " done " << std::endl;
+        Sleep(1500);
+        system("cls");
+    } else {
+        std::cout << " Program executed failed  " << std::endl;
+        return 1;
+    }
+
+    return 0;
+}
